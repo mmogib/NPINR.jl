@@ -1,7 +1,7 @@
 name = "NPINR"
 uuid = "56733f8e-7c4e-4aed-ae62-e7d73a31b2be"
 authors = ["Mohammed Alshahrani <mmogib@gmail.com> and contributors"]
-version = "1.0.0-DEV"
+version = "1.0.0-alpha"
 
 [deps]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
@@ -32,7 +32,7 @@ Symbolics = "6.15.3"
 TimeZones = "1.18.1"
 XLSX = "0.10.4"
 Zygote = "0.6.72"
-julia = "1.6.7"
+julia = "1.6, 1.11"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
