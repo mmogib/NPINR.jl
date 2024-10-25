@@ -1,3 +1,9 @@
 /Manifest.toml
 /docs/Manifest.toml
 /docs/build/
+
+# Ignore all contents in the results folder
+results/*
+
+# Allow the results folder itself
+!results/

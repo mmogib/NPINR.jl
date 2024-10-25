@@ -53,6 +53,8 @@ function save(file_name::String, s::NLSolution; dated::Bool = true)
     savedf(file_name, df; dated = dated)
 end
 
+function savefig(p)
+
 # """
 #     plot_it(f, xs, ys, points; xstars::Union{Nothing,Vector{Vector{T}}} where {T<:Number}=nothing, kwargs...)
 
