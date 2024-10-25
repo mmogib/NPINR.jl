@@ -24,7 +24,7 @@ To install `NPINR.jl`, use the Julia package manager:
 
 ```julia
 using Pkg
-Pkg.add("NPINR")
+Pkg.add("https://github.com/mmogib/NPINR.jl.git")
 ```
 
 ## Usage
